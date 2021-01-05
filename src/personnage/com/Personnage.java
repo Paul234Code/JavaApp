@@ -24,15 +24,19 @@ public class Personnage {
 		this.age = age;
 		this.profession = profession;
 	}
+	//fonction qui retourne le prenom
 	public String getPrenom() {
 		return prenom;
 	}
+	// fonction qui retourne le nom
 	public String getNom() {
 		return nom;
 	}
+	// fonction qui retourne l'age du personnage
 	public Integer getAge() {
 		return age;
 	}
+	//fonction qui retourne la profession du personnage
 	public String getProfession() {
 		return profession;
 	}
